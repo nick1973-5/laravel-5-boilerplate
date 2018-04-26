@@ -3,24 +3,32 @@
 @section('title', app_name() . ' | '.__('navs.general.home'))
 
 @section('content')
+    {{--Carousel--}}
     <div id="index_carousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="img/frontend/Glu7-Banner-9.png" alt="First slide">
+                <img class="d-block w-100" src="img/frontend/banner1.png" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>The Best .....</h5>
                     <p>Hello this is a test</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="img/frontend/Glu7-Banner-9.png" alt="Second slide">
+                <img class="d-block w-100" src="img/frontend/banner2.png" alt="Second slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>The Best .....</h5>
                     <p>Hello this is a test</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="img/frontend/Glu7-Banner-9.png" alt="Third slide">
+                <img class="d-block w-100" src="img/frontend/banner3.png" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>The Best .....</h5>
+                    <p>Hello this is a test</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/frontend/banner4.png" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>The Best .....</h5>
                     <p>Hello this is a test</p>
@@ -36,7 +44,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-
+    {{--3 Buttons inline--}}
     <div class="container mt-4">
         <div class="row">
             <div class="col-md-4">
@@ -68,8 +76,11 @@
             </div>
         </div>
     </div>
-
+    {{--3 Blocks inline--}}
     <div class="container">
+        <div class="col-12 text-center">
+            <h3 class="text-center">BEST SELLERS</h3>
+        </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
@@ -95,7 +106,11 @@
                         </div>
                     </div>
                 </div>
-
+                {{--3 Blocks inline--}}
+                <div class="col-12 text-center">
+                    <a href="#" class="btn btn-danger mb-5">SEE MORE</a>
+                    <h3 class="text-center">DIRECTORY</h3>
+                </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
                         <img class="card-img-top" src="img/frontend/banner.jpg" alt="Card image cap">
@@ -119,6 +134,9 @@
                             <p class="card-text text-center text-light">Insurance Services</p>
                         </div>
                     </div>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="#" class="btn btn-danger mb-5">SEE MORE</a>
                 </div>
             </div>
     </div><!-- container -->
