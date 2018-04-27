@@ -27,6 +27,7 @@
             @include('includes.partials.logged-in-as')
             @include('frontend.includes.nav')
             @yield('content')
+            @include('frontend.includes.footer')
             </div><!-- container -->
         </div><!-- #app -->
 

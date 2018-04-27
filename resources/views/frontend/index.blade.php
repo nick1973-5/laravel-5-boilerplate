@@ -8,30 +8,30 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="img/frontend/banner1.png" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>The Best .....</h5>
-                    <p>Hello this is a test</p>
+                <div class="carousel-caption d-none d-md-block text-right text-dark mb-4">
+                    <h2>The Best .....</h2>
+                    <h5>Hello this is a test</h5>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="img/frontend/banner2.png" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>The Best .....</h5>
-                    <p>Hello this is a test</p>
+                <div class="carousel-caption d-none d-md-block text-left text-dark">
+                    <h2>The Best .....</h2>
+                    <h5>Hello this is a test</h5>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="img/frontend/banner3.png" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>The Best .....</h5>
-                    <p>Hello this is a test</p>
+                <div class="carousel-caption d-none d-md-block text-left text-dark">
+                    <h2>The Best .....</h2>
+                    <h5>Hello this is a test</h5>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="img/frontend/banner4.png" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>The Best .....</h5>
-                    <p>Hello this is a test</p>
+                <div class="carousel-caption d-none d-md-block text-right text-dark mb-5">
+                    <h2>The Best .....</h2>
+                    <h5>Hello this is a test</h5>
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="img/frontend/shopfittings_small.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/frontend/shopfitting.png" alt="Card image cap">
                         <div class="card-body bg-secondary">
                             <p class="card-text text-center text-light">Shop Fitting</p>
                         </div>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="img/frontend/equipment.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/frontend/equipment.png" alt="Card image cap">
                         <div class="card-body bg-secondary">
                             <p class="card-text text-center text-light">Equipment</p>
                         </div>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="img/frontend/medical.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/frontend/medical.png" alt="Card image cap">
                         <div class="card-body bg-secondary">
                             <p class="card-text text-center text-light">Medical Insurance</p>
                         </div>
@@ -113,7 +113,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="img/frontend/banner.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/frontend/team_building.png" alt="Card image cap">
                         <div class="card-body bg-secondary">
                             <p class="card-text text-center text-light">Team Building</p>
                         </div>
@@ -121,7 +121,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="img/frontend/legal.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/frontend/legal.png" alt="Card image cap">
                         <div class="card-body bg-secondary">
                             <p class="card-text text-center text-light">Legal Services</p>
                         </div>
@@ -129,7 +129,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="img/frontend/insurance.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/frontend/insurance.png" alt="Card image cap">
                         <div class="card-body bg-secondary">
                             <p class="card-text text-center text-light">Insurance Services</p>
                         </div>
@@ -141,42 +141,23 @@
             </div>
     </div><!-- container -->
     <div class="container">
-        <footer class="pt-4 my-md-5 pt-md-5 border-top">
-            <div class="row">
-                <div class="col-12 col-md">
-                    <img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-                    <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>Features</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Cool stuff</a></li>
-                        <li><a class="text-muted" href="#">Random feature</a></li>
-                        <li><a class="text-muted" href="#">Team feature</a></li>
-                        <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                        <li><a class="text-muted" href="#">Another one</a></li>
-                        <li><a class="text-muted" href="#">Last time</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>Resources</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Resource</a></li>
-                        <li><a class="text-muted" href="#">Resource name</a></li>
-                        <li><a class="text-muted" href="#">Another resource</a></li>
-                        <li><a class="text-muted" href="#">Final resource</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>About</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Team</a></li>
-                        <li><a class="text-muted" href="#">Locations</a></li>
-                        <li><a class="text-muted" href="#">Privacy</a></li>
-                        <li><a class="text-muted" href="#">Terms</a></li>
-                    </ul>
-                </div>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
-        </footer>
-    </div>
+            <div class="col-md-6 text-center">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+    </div><!-- container -->
 @endsection
