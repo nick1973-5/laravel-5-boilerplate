@@ -26,6 +26,7 @@
         <div id="app">
             @include('includes.partials.logged-in-as')
             @include('frontend.includes.nav')
+            @include('frontend.includes.top_buttons')
             @yield('content')
             @include('frontend.includes.footer')
             </div><!-- container -->
@@ -37,11 +38,45 @@
         @stack('after-scripts')
         <script>
             $(function() {
-                console.log( "ready!" );
-                // $('#exampleModal').on('shown.bs.modal', function () {
-                //     $('#myInput').trigger('focus')
-                // })
-            });
+                if ($("#shop").hasClass('active')) {
+                    console.log("Home Page");
+                    $("#shop_btn").removeClass('bg-dark').css("background-color", "#B02A30")
+                }
+
+                $('#sort_by').change(function() {
+                    console.log( this.value );
+                    $(".hr").show()
+                    $(".law").show()
+                    $(".insurance").show()
+                    $(".equipment").show()
+                    if(this.value=='insurance')
+                    {
+                        $(".hr").hide()
+                        $(".law").hide()
+                        $(".equipment").hide()
+                    }
+                    if(this.value=='hr')
+                    {
+                        $(".insurance").hide()
+                        $(".law").hide()
+                        $(".equipment").hide()
+                    }
+                    if(this.value=='law')
+                    {
+                        $(".insurance").hide()
+                        $(".hr").hide()
+                        $(".equipment").hide()
+                    }
+                    if(this.value=='equipment')
+                    {
+                        $(".insurance").hide()
+                        $(".hr").hide()
+                        $(".law").hide()
+                    }
+                })
+
+            })
+            
         </script>
         @include('includes.partials.ga')
     </body>

@@ -44,38 +44,6 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-    {{--3 Buttons inline--}}
-    <div class="container mt-4">
-        <div class="row">
-            <div class="col-md-4">
-                <a style="text-decoration:none" class=" " href="#">
-                    <div class="card mb-4 box-shadow bg-dark text-light text-center">
-                        <div class="card-body">
-                            <p class="card-text">SHOP</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a style="text-decoration:none" href="#">
-                    <div class="card mb-4 box-shadow bg-dark text-light text-center">
-                        <div class="card-body">
-                            <p class="card-text">DIRECTORY</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a style="text-decoration:none" class=" " href="#">
-                    <div class="card mb-4 box-shadow bg-dark text-light text-center">
-                        <div class="card-body">
-                            <p class="card-text">CASH OUT</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
     {{--3 Blocks inline--}}
     <div class="container">
         <div class="col-12 text-center">
